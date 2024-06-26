@@ -9,3 +9,6 @@ Download the latest .zip and extract `Toggle Power LED.pak` to the `Tools/rg35xx
 
 ## Usage
 Simply run `Toggle Power LED` from the Tools category in MinUI. Please note that you will likely need to run this tool again after a MinUI update.
+
+## Uninstallation
+Run `Toggle Power LED` to turn **off** the LED before removing `Toggle Power LED.pak` from the `Tools/rg35xxplus/` folder on your SD card. Failure to do so should not cause issues, but does leave a reference to a nonexistent file in your MinUI boot script which is never a good idea.
